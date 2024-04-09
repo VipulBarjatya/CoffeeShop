@@ -13,6 +13,7 @@ import CustomIcon from '../components/CustomIcon'
 const Tab = createBottomTabNavigator()
 
 const TabNavigator = () => {
+    console.log("hello")
   return (
     <Tab.Navigator
       screenOptions={{
